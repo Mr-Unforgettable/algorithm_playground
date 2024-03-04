@@ -1,6 +1,6 @@
 [package]
 name = "algorithm_playground"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "Algorithms Playground: To learn and understand the working of different algorithms in Computer Science."
 authors = ["Mr. Unforgettable"]
