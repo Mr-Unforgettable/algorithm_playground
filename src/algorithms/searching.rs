@@ -19,11 +19,12 @@ pub mod searching {
     /// # Examples
     ///
     /// ```
-    /// use algorithm_playground::algorithms::searching::linear_search;
+    /// use algorithm_playground::algorithms::searching::searching::linear_search;
     ///
     /// let arr = vec![1, 2, 3, 4, 5];
     /// assert_eq!(linear_search(&arr, &3), Some(2));
     /// ```
+    
     pub fn linear_search<T: PartialEq>(arr: &[T], target: &T) -> Option<usize> {
         for (index, item) in arr.iter().enumerate() {
             if item == target {
@@ -52,11 +53,12 @@ pub mod searching {
     /// # Examples
     ///
     /// ```
-    /// use algorithm_playground::algorithms::searching::binary_search;
+    /// use algorithm_playground::algorithms::searching::searching::binary_search;
     ///
     /// let arr = vec![1, 2, 3, 4, 5];
     /// assert_eq!(binary_search(&arr, &3), Some(2));
     /// ```
+    
     pub fn binary_search<T: Ord>(arr: &[T], target: &T) -> Option<usize> {
         let mut low = 0;
         let mut high = arr.len() - 1;
