@@ -2,6 +2,9 @@
 name = "algorithm_playground"
 version = "1.0.0"
 edition = "2021"
+description = "Algorithms Playground: To learn and understand the working of different algorithms in Computer Science."
+authors = ["Mr. Unforgettable"]
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
