@@ -4,7 +4,7 @@ Algorithm Playground is a Rust library that provides implementations of various 
 
 ## Features
 
-- Includes implementations of linear search and binary search algorithms.
+- Includes implementations of search, sort algorithms.
 - Works with any type that implements the `PartialEq` or `Ord` trait.
 
 ## Installation
@@ -20,7 +20,7 @@ algorithm_playground = "1.0.1"
 Here's an example of how to use the searching algorithms in your Rust code:
 
 ```
-use algorithm_playground::algorithms::searching::{linear_search, binary_search};
+use algorithm_playground::algorithms::searching::searching::{linear_search, binary_search};
 
 fn main() {
     let arr = vec![1, 2, 3, 4, 5];
