@@ -67,7 +67,8 @@ pub mod searching {
             let mid = (low + high) / 2;
             if arr[mid] == *target {
                 return Some(mid);
-            } else if arr[mid] < *target {
+            }
+            if arr[mid] < *target {
                 low = mid + 1;
             } else {
                 high = mid - 1;
