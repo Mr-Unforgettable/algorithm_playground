@@ -13,7 +13,7 @@ To use Algorithm Playground in your Rust project, add it as a dependency in your
 
 ```toml
 [dependencies]
-algorithm_playground = "1.0.1"
+algorithm_playground = "1.0.2"
 ```
 
 ## Usage
