@@ -5,6 +5,7 @@ edition = "2021"
 description = "Algorithms Playground: To learn and understand the working of different algorithms in Computer Science."
 authors = ["Mr. Unforgettable"]
 license = "MIT"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
